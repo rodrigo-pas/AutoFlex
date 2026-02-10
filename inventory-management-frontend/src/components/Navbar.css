@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
 }
 
 .navbar-brand {
@@ -31,4 +32,21 @@
 
 .nav-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .navbar-nav {
+    flex-direction: column; /* Stack nav items vertically */
+    width: 100%; /* Take full width */
+    margin-top: 1rem; /* Add some space from brand */
+  }
+
+  .nav-item {
+    margin: 0.5rem 0; /* Adjust margin for vertical stacking */
+  }
 }

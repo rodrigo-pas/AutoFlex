@@ -119,8 +119,8 @@ Todos os endpoints base estão em `http://localhost:8080/`.
 
 Para uma aplicação de nível de produção, as seguintes melhorias seriam recomendadas:
 
--   **Responsividade (RNF003):** Implementar um design responsivo para garantir uma boa experiência em dispositivos móveis e desktops, possivelmente integrando um framework CSS (ex: Bootstrap, Tailwind CSS) ou utilizando media queries customizadas.
--   **Testes:** Desenvolver testes unitários e de integração abrangentes para o backend e o frontend (ex: JUnit para Quarkus, Vitest/React Testing Library para React, Cypress para testes E2E).
+-   **Responsividade (RNF003):** A responsividade básica para a barra de navegação foi implementada. Para uma experiência completa em diferentes dispositivos, seria ideal revisar e adaptar outros componentes da interface.
+-   **Testes:** Um teste unitário para a lógica de cálculo de valor dos produtos foi adicionado no backend. Recomenda-se desenvolver testes unitários e de integração abrangentes para o restante do backend e o frontend (ex: JUnit para Quarkus, Vitest/React Testing Library para React, Cypress para testes E2E).
 -   **Tratamento de Erros:** Melhorar o tratamento e a exibição de erros no frontend para fornecer feedback mais amigável ao usuário.
 -   **Autenticação e Autorização:** Implementar mecanismos de segurança para controlar o acesso às funcionalidades da API e do frontend.
 -   **UI/UX:** Aprimorar a interface do usuário com um design mais moderno e intuitivo.
