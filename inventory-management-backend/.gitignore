@@ -1,0 +1,8 @@
+/target/
+.apt_generated/
+.idea/
+.vscode/
+*.iml
+*.log
+src/main/generated/
+src/test/generated/
